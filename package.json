@@ -1,0 +1,18 @@
+{
+	"name": "dill-core",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/dill-core.js",
+	"scripts": {
+		"build:js": "rollup --config",
+		"watch:js": "rollup --config --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^7.1.1",
+		"rollup": "^1.27.5",
+		"sage": "sage-library"
+	}
+}

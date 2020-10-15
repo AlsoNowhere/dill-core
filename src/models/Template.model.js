@@ -19,7 +19,7 @@ export const Template = function(
         this.element = elementOrComponent;
     }
     else if (elementOrComponent instanceof Function && elementOrComponent.component instanceof Component) {
-        this.component = elementOrComponent
+        this.Component = elementOrComponent
     }
 
     this.data = data;
@@ -36,8 +36,8 @@ export const Template = function(
         this.for = options.for;
     }
 
-    if (options.template) {
-        this.template = options.template;
+    if (options.dill_template) {
+        this.dill_template = options.dill_template;
     }
 
     Object.seal(this);

@@ -1,5 +1,5 @@
 
-export var resolveData = function(data,value){
+export var resolveData = (data, value) => {
     var output = data[value] instanceof Function
         ? data[value]()
         : data[value];
